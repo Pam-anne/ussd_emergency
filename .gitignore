@@ -1,0 +1,78 @@
+# PHP specific
+/vendor/
+composer.lock
+*.log
+error_log
+php_errors.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+config.php
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Cache and temporary files
+/cache/
+/tmp/
+*.cache
+*.tmp
+
+# Logs directory
+/logs/
+*.log
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Session files
+/sessions/
+*.sess
+
+# Database backups
+*.sql
+*.sqlite
+*.db
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Node modules (if using any frontend tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build directories
+/build/
+/dist/
+/public/build/
+
+# Testing
+/coverage/
+.phpunit.result.cache 
