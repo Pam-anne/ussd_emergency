@@ -13,7 +13,9 @@ $password = 'UssdEmergency123!'; // or 'ussd123' if you used the simpler passwor
 // Session timeout in seconds (5 minutes)
 define('SESSION_TIMEOUT', 300);
 
+// Admin session timeout (30 minutes)
+define('ADMIN_SESSION_TIMEOUT', 1800);
 
-define('ADMIN_USERNAME', 'test1');
-define('ADMIN_PASSWORD_HASH', password_hash('test@123', PASSWORD_DEFAULT));
-?>
+// Admin URL configuration
+// define('ADMIN_URL', '/admin');
+
